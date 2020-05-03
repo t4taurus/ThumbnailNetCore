@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Anis Ahmed</Authors>
+    <Company>Code5 Technologies</Company>
+    <Description>The thumbnail creation library for .NET Core projects.</Description>
+    <RepositoryUrl>https://github.com/t4taurus/ThumbnailNetCore</RepositoryUrl>
+    <PackageTags>.net core t4taurus thumbnail library cross platform .netstandard code5 technologies web desktop</PackageTags>
+    <PackageReleaseNotes>Thumbnail creator library for .NET Core projects compiled with .NET Standard 2.0. Many utility functions to create the thumbnails on the fly in c#.</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Drawing.Common" Version="4.7.0" />
+  </ItemGroup>
+
+</Project>
